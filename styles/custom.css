@@ -1,0 +1,106 @@
+/* General Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table thead tr {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #4CAF50;
+}
+
+/* Heading Styling */
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1{
+    color: darkgray;
+
+}
+
+h1:hover{
+    color: black;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Dropdown Select Styling */
+select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+
+.nav a {
+    display: inline-block;
+    padding: 2px 3px;
+    text-decoration: none;
+    color: #007BFF;
+    background-color: #fff;
+    border: 1px solid #007BFF;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.nav a.selected {
+    background-color: #0056b3;
+    color: #fff;
+    border-color: #0056b3;
+}
+
